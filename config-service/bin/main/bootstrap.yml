@@ -1,7 +1,7 @@
 server:
   port: 8081
-  
- spring:
+
+spring:
   cloud:
     config:
       server:
@@ -9,9 +9,8 @@ server:
           uri: https://github.com/maocber/springboot-microservices-my-example.git
           searchPaths: config-data
           username: ${GIT_USER}
-          passworf: ${GIT_PASSWORD}
+          password: ${GIT_PASSWORD}
   security:
     user:
       name: root
       password: s3cr3t
-            
