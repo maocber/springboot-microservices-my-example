@@ -6,6 +6,12 @@ server:
     config:
       server:
         git:
-          uri: https://github.com/digitallab-academy/ms-course-youtube.git
-          searchPath
+          uri: https://github.com/maocber/springboot-microservices-my-example.git
+          searchPath: config-data
+          username: ${GIT_USER}
+          passworf: ${GIT_PASSWORD}
+  security:
+    user:
+      name: root
+      password: s3cr3t
             
