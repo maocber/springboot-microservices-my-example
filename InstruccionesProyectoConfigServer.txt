@@ -1,0 +1,15 @@
+1. Activar el proyecto como un servidor de configuracion
+- Anotar la Clase principal con @EnableConfirServer
+
+2 En el arrchivo de configuracion/resources
+-Cambiar el arhicov Aplication.properties => bootstrap.yml
+
+3. configurar el archivo bootstrap.yml
+- Se debe tener en cuenta los archivos de configuracion de cada ms para que el configserver los pueda encontrar
+	* Ir a la carpeta del repositorio y crear una carpeta de configuracion (config-data)
+	* copiar los archivs de configuracion de los MS Ejemplo
+		customer (aplication.yml)  => Renombrar como (costumer-sevice.yml)
+- En el proyecto config-service, en el arhivo bootstrap.yml, se configuran en las rutas de los arhchivos de configuracion de los MS 
+		
+
+
